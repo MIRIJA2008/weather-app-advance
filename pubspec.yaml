@@ -1,0 +1,26 @@
+name: weather_app_advanced
+description: "Une application météo avancée"
+publish_to: 'none'
+version: 1.0.0+1
+
+# ⭐⭐⭐ CORRIGEZ CETTE LIGNE ⭐⭐⭐
+environment:
+  sdk: '>=3.7.0 <4.0.0'  # Changez pour une plage plus large
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # ⭐⭐⭐ UTILISEZ DES VERSIONS COMPATIBLES ⭐⭐⭐
+  http: ^1.1.0
+  geolocator: ^10.1.0
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
